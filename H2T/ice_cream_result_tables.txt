@@ -1,0 +1,81 @@
+T2
+ice_cream_id  ice_cream_name  manufacturer_name
+------------  --------------  -----------------
+1             Plain Vanilla   Jen & Berry
+2             Vegan Vanilla   4 Friends
+3             Super Strawber  4 Friends
+4             Very plain      4 Friends
+
+
+T3
+ice_cream_id  ice_cream_name    manufacturing_cost  manufacturer_name
+------------  ----------------  ------------------  -----------------
+3             Super Strawberry  1.44                4 Friends
+4             Very plain        1.2                 4 Friends
+
+
+T4
+manufacturer_name  ice_cream_name    ingredient_name
+-----------------  ----------------  ---------------
+4 Friends          Super Strawberry  Cream
+4 Friends          Super Strawberry  Strawberry
+4 Friends          Super Strawberry  Sugar
+4 Friends          Vegan Vanilla     Coconut cream
+4 Friends          Vegan Vanilla     Sugar
+4 Friends          Vegan Vanilla     Vanilla extract
+4 Friends          Very plain        Coconut cream
+4 Friends          Very plain        Vanilla extract
+Jen & Berry        Plain Vanilla     Cream
+Jen & Berry        Plain Vanilla     Sugar
+Jen & Berry        Plain Vanilla     Vanilla extract
+
+
+T5
+ice_cream_name
+--------------
+Plain Vanilla
+Vegan Vanilla
+Very plain
+
+
+T6
+ingredient_id  ingredient_name
+-------------  ---------------
+1              Cream
+2              Coconut cream
+3              Sugar
+4              Vanilla extract
+5              Strawberry
+
+
+T7
+manufacturer_id  manufacturer_name  ice_cream_id  ice_cream_name
+---------------  -----------------  ------------  --------------
+1                Jen & Berry        1             Plain Vanilla
+2                4 Friends          2             Vegan Vanilla
+2                4 Friends          3             Super Strawber
+2                4 Friends          4             Very plain
+3                Gelatron
+
+
+T8
+ingredient_name  ice_cream_name
+---------------  --------------
+Coconut cream    Vegan Vanilla
+Coconut cream    Very plain
+Cream            Plain Vanilla
+Cream            Super Strawber
+Dark chocolate
+Strawberry       Super Strawber
+Sugar            Plain Vanilla
+Sugar            Super Strawber
+Sugar            Vegan Vanilla
+Vanilla extract  Plain Vanilla
+Vanilla extract  Vegan Vanilla
+Vanilla extract  Very plain
+
+
+T9
+ingredient_id  ingredient_name
+-------------  ---------------
+6              Dark chocolate

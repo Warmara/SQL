@@ -1,0 +1,53 @@
+-- h1t11
+-- Jina_Marek_151908530
+
+SELECT name
+FROM product
+WHERE category <> 'chocolate bar';
+
+
+---		Step 1		---
+--	Copy the table 	 --
+-----------------------
+--	FROM product	 --
+-----------------------
+
+id  name                       category       weight  energy
+--  -------------------------  -------------  ------  ------
+1   Fazerina                   chocolate bar  37      548
+2   Jim                        chocolate bar  14      366
+3   Salta Katten               candy bag      140     351
+4   Dumle mix                  chocolate bag  220     474
+5   Tupla Double Layer Banana  chocolate bar  48      471
+6   Bilar Original             candy bag
+7   Sisu Horna                 candy bag      40      370
+8   Center Toffeerulla                        78      482
+
+
+---				Step 2					---
+-- Delete other than Where condition	 --
+-------------------------------------------
+--	WHERE category <> 'chocolate bar'	 --
+-------------------------------------------
+
+id  name            category       weight  energy
+--  --------------  -------------  ------  ------
+3   Salta Katten    candy bag      140     351
+4   Dumle mix       chocolate bag  220     474
+6   Bilar Original  candy bag
+7   Sisu Horna      candy bag      40      370
+
+
+--- 			Step 3				---
+--	Delete other than name column	 --
+---------------------------------------
+--			SELECT name				 --
+---------------------------------------
+
+
+name
+--------------
+Salta Katten
+Dumle mix
+Bilar Original
+Sisu Horna

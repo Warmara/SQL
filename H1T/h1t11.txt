@@ -1,0 +1,9 @@
+-- h1t11
+-- Jina_Marek_151908530
+
+b. -> False
+a. -> True
+c. -> False
+d. -> True
+e. -> True
+f. -> False

@@ -1,0 +1,12 @@
+-- h4t5
+-- Jina Marek 151908530
+
+a -> False
+b -> False
+c -> True
+d -> Unknown
+e -> Unknown
+f -> False
+g -> Unknown
+h -> True
+
